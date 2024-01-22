@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let beratJ = 64;
+let tinggiJ = 1.65;
+let beratM = 50;
+let tinggiM = 1.68;
+const IMT1 = beratM / tinggiM **2;
+const IMT2 = beratJ / tinggiJ **2;
+
+
+console.log("berat joan  : " + beratJ);
+console.log("tinggi joan : " + tinggiJ);
+console.log("IMT joan :" + IMT2);
+console.log("berat madan : " + beratM);
+console.log("tinggi madan :" + tinggiM);
+console.log("IMT madan :" +IMT1);
+
+var madanHigherIMT = IMT1 > IMT2 ;
+console.log(madanHigherIMT);
+
+if (IMT1 > IMT2){
+    console.log(`nilai IMT Madan(${IMT1}) Lebih Tinggi dari Joan (${IMT2})`)
+}else {
+    console.log(`nilai IMT Joan (${IMT2}) lebih Tinggi dari Madan (${IMT1})`)
+
+}
+    </script>
+</body>
+</html>
