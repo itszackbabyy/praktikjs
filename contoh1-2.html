@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //contoh 1
+        // let nilaiAkhir = prompt("masukan nilai Akhir");
+        // if (nilaiAkhir >= 80 && nilaiAkhir <= 100) {
+        //     document.write(`Nilai akhir anda A (${nilaiAkhir})`);
+        // } else if (nilaiAkhir >= 70 && nilaiAkhir <= 80){
+        //     document.write(`Nilai akhir anda B (${nilaiAkhir})`);
+        // } else if (nilaiAkhir >= 1 && nilaiAkhir <= 70) {
+        //     document.write(`Nilai akhir anda C (${nilaiAkhir})`)
+        // } else {
+        //     document.write(`anda belum mengikuti ujian`)
+        // }  
+
+        let userRole = prompt("login sebagai : ");
+        if (userRole == "admin"){
+            document.write(`Selamat Datang Admin`);
+        }else if (userRole == "operator"){
+            document.write(`Selamat datang Operator`);
+        }else{
+            document.write(`Anda di Larang Mengakses Halaman ini`);
+        }
+
+    </script>
+</body>
+</html>

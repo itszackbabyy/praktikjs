@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const timA = 293;
+        const timB = 289;
+
+        const rumusrataA = timA / 3;
+        const rumusrataB = timB / 3;
+
+        var nilaiA = rumusrataA;
+        var nilaiB = rumusrataB;
+
+        if (nilaiA >= nilaiB){
+            document.write(`Tim A Menang dengan rata rata Skor (${nilaiA.toFixed(0)})`)
+        }else if (nilaiB >= nilaiA) {
+            document.write(`Tim B Menang dengan rata rata Skor (${nilaiB.toFixed(0)})`)
+        }else {
+            document.write(`Pertandingan seri`)
+        }
+
+    </script>
+</body>
+</html>
